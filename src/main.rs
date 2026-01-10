@@ -18,6 +18,25 @@ fn main() {
     //     println!("U r not a legal");
     // }
 
-    let greeting = String::from("hello world");
-    println!("{}", greeting);
+    // let greeting = String::from("hello world");
+    // println!("{}", greeting);
+
+    // let s = "Hello Rust";
+    // println!("{}", s);
+
+    // let minor: bool = false;
+    // if minor{
+    //     println!("Is minor")
+    // }else{
+    //     println!("Not minor")
+    // }
+
+    // for i in 0..11 {
+    //     print!("{} ", i)
+    // }
+
+    let mut x = String::from("Probal");
+    x.push_str(" Ghosh");
+    println!("{}", x);
+
 }
